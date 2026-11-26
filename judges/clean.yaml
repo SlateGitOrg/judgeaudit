@@ -1,0 +1,7 @@
+# The same quality sensitivity with no position or length bias.
+kind: simulated
+seed: 7
+b_q: 4.0
+b_pos: 0.0
+b_len: 0.0
+g_len: 0.0

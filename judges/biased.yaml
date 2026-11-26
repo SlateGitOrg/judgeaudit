@@ -1,0 +1,7 @@
+# A judge with planted position and length bias.
+kind: simulated
+seed: 7
+b_q: 4.0
+b_pos: 0.6
+b_len: 1.2
+g_len: 0.5

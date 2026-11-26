@@ -1,0 +1,3 @@
+# An OpenAI-compatible endpoint. Set JUDGEAUDIT_LLM_BASE_URL, JUDGEAUDIT_LLM_API_KEY and
+# JUDGEAUDIT_LLM_MODEL in the environment.
+kind: openai_compat

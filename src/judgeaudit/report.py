@@ -107,7 +107,8 @@ def render_audit(result: AuditResult) -> str:
         f"- Order consistency on v1/v2 pairs: {pos.consistency_matched:.1%} "
         f"({pos.n_matched} pairs)",
         f"- Order consistency on padded pairs: {pos.consistency_padded:.1%} "
-        f"({pos.n_padded} pairs; 50% is expected when quality is equal and nothing else matters)",
+        f"({pos.n_padded} pairs; 50% is expected if each order's verdict is an independent "
+        "fair coin flip: equal quality, no preference for either answer, no position preference)",
         "",
         "## Length",
         "",

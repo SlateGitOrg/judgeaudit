@@ -117,7 +117,7 @@ Judge config `fbe1ad6005d034d6`. Data: 600 questions judged in both orders, 300 
 
 - b_pos: +0.717 [+0.532, +0.903], p = 3.3e-14 (positive favours the answer shown first)
 - Order consistency on v1/v2 pairs: 76.2% (600 pairs)
-- Order consistency on padded pairs: 52.3% (300 pairs; 50% is expected when quality is equal and nothing else matters)
+- Order consistency on padded pairs: 52.3% (300 pairs; 50% is expected if each order's verdict is an independent fair coin flip: equal quality, no preference for either answer, no position preference)
 
 ## Length
 
